@@ -1,4 +1,5 @@
 # Time Series Forecasting for Mobile Shop Sales
+![Time-Series-Analysis](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/ad6dc8e9-d6e0-413c-8d80-e659435c256d)
 
 This project focuses on predictive sales forecasting for a mobile shop using time series analysis and two different modeling approaches: XGBoost and FBProphet. The objective is to develop accurate forecasting models to gain insights into future sales trends and improve business decision-making.
 

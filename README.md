@@ -45,6 +45,8 @@ Hyperparameter tuning is performed using RandomizedSearchCV to find the best set
 
 ### Future Sales Predictions
 
+This plot allows us to visualize the forecasted sales values for future dates in the mobile shop dataset, providing valuable insights for business planning and decision-making.
+
 ![Future predictions XG](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/a0b4f193-eb39-41bc-8a86-7d9ecc8f10ad)
 
 The XGBoost model is trained on the entire dataset, and future sales predictions are made for a specific period.

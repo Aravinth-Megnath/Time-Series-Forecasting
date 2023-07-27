@@ -2,7 +2,13 @@
 
 ![Time-Series-Analysis](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/dfb7e257-dc8a-48cc-a856-850fccadb318)
 
-This project focuses on predictive sales forecasting for a mobile shop using time series analysis and two different modeling approaches: XGBoost and FBProphet. The objective is to develop accurate forecasting models to gain insights into future sales trends and improve business decision-making.
+## Abstract
+
+This project focuses on predictive sales forecasting for a mobile shop using time series analysis and two different modeling approaches: FBProphet and XGBoost. The objective is to develop accurate forecasting models to gain insights into future sales trends and improve business decision-making. The FBProphet model achieved a MAPE of 0.12%, while XGBoost obtained a significantly lower MAPE of 0.11%. The study emphasizes the value of leveraging advanced machine learning models to enhance business analytics and optimize inventory management in the dynamic mobile market landscape.
+
+## Objective
+
+The objective of this project is to develop accurate sales forecasting models for a mobile shop using time series analysis. The study employs two distinct approaches, FBProphet and XGBoost, to predict future sales trends. By comparing the models' performance in terms of Mean Absolute Percentage Error (MAPE), the project aims to identify the most suitable forecasting technique.
 
 ## XGBoost Model
 
@@ -13,9 +19,6 @@ In this section, we perform exploratory data analysis on the historical sales da
 Data Distribution
 ![1](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/9cbd80a0-35d8-4228-9075-1b235298551b)
 
-Train Test Split
-![2](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/772d7fd4-8a24-4249-a9cd-2c03022b0976)
-
 ### Time Series Split
 
 The dataset is split into training and test sets using time series split to ensure that the model is evaluated on future time periods.
@@ -25,9 +28,13 @@ The dataset is split into training and test sets using time series split to ensu
 
 We visualize the train-test splits in the time series cross-validation to understand how the data is split for model evaluation.
 
+![2](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/772d7fd4-8a24-4249-a9cd-2c03022b0976)
+
 ### Data Preprocessing
 
 The raw data is preprocessed to handle missing values, if any, and formatted to have a date-time index. Feature engineering is also performed to create additional time-related features essential for time series forecasting.
+
+![revenue by day of week](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/ee7250dd-2b3c-4abf-9fa4-adb6c11e2371)
 
 ### Cross Validation
 
@@ -37,17 +44,21 @@ We apply cross-validation to evaluate the XGBoost model's performance and comput
 
 Hyperparameter tuning is performed using RandomizedSearchCV to find the best set of parameters for the XGBoost model.
 
+![hyper](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/ce563cd1-7da2-4878-b7ae-3cc0b4c64120)
+
 ### Future Sales Predictions
+
 ![Future predictions XG](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/a0b4f193-eb39-41bc-8a86-7d9ecc8f10ad)
+
 The XGBoost model is trained on the entire dataset, and future sales predictions are made for a specific period.
 
-### Predictions on Test Dataset
-![prediction on test](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/dd97776d-aeb4-4f97-92c3-a4290a44d0d8)
 The XGBoost model's predictions are compared to the actual test dataset to assess its forecasting accuracy.
 
 ### Comparison of Daily Sales Data and Predictions
 
 We visually compare the daily sales data with the XGBoost model's predictions to understand the model's performance.
+
+![prediction on test](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/dd97776d-aeb4-4f97-92c3-a4290a44d0d8)
 
 ### Model Evaluation
 
@@ -56,6 +67,7 @@ The XGBoost model is evaluated using various metrics such as Mean Absolute Perce
 ## FBProphet Model
 
 ### Exploratory Data Analysis
+
 ![h](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/ed5c5a83-a75f-450b-9430-97ce0d3ee909)
 
 Similar to the XGBoost model, we perform exploratory data analysis on the historical sales data using FBProphet.
@@ -104,6 +116,12 @@ Based on the evaluation results, we conclude that the XGBoost model outperforms 
 
 For more detailed insights and code implementation, please refer to the Jupyter Notebooks provided in this repository.
 
-Feel free to reach out for any questions or feedback!
 
-*Author: [Your Name]*
+## Feedback
+
+Your feedback is important to me! If you have any suggestions, questions, or feedback regarding this project, please feel free to reach out to me at:
+
+- Email: [aravinthmegnath@gmail.com]
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg)](https://www.linkedin.com/in/aravinth-meganathan-200667a1/)
+
+I appreciate your valuable input and look forward to hearing from you!

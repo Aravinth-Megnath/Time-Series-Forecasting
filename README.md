@@ -55,6 +55,7 @@ The XGBoost model's predictions are compared to the actual test dataset to asses
 
 ### Comparison of Daily Sales Data and Predictions
 
+The XGBoost model's predictions are compared to the actual test dataset to assess its forecasting accuracy.
 We visually compare the daily sales data with the XGBoost model's predictions to understand the model's performance.
 
 ![prediction on test](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/dd97776d-aeb4-4f97-92c3-a4290a44d0d8)

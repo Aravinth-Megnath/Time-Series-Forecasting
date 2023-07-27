@@ -56,6 +56,7 @@ The XGBoost model is evaluated using various metrics such as Mean Absolute Perce
 ## FBProphet Model
 
 ### Exploratory Data Analysis
+![h](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/ed5c5a83-a75f-450b-9430-97ce0d3ee909)
 
 Similar to the XGBoost model, we perform exploratory data analysis on the historical sales data using FBProphet.
 
@@ -64,6 +65,8 @@ Similar to the XGBoost model, we perform exploratory data analysis on the histor
 Feature engineering is conducted to create additional time-related features essential for FBProphet's forecasting capabilities.
 
 ### Train - Test Split
+
+![fb train test split](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/4ee504e4-d2e1-41c6-91a6-af14b7371f78)
 
 The dataset is split into training and test sets for evaluating the FBProphet model's performance.
 
@@ -75,9 +78,17 @@ The FBProphet model is fitted on the training dataset to capture seasonality, tr
 
 Future sales predictions are made using the fitted FBProphet model.
 
+![fb forecast](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/d3a2a871-f334-49c0-9520-e37a01ec6b8b)
+
+![fb components](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/201eb5ff-9807-4baf-9a62-0058a5bd1705)
+
 ### Comparing Forecast to Originals
 
 We compare the FBProphet model's forecasts to the original sales data to assess its accuracy.
+
+![forecst to original](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/2d60d64c-8ee1-4b5c-83c5-819d408cdde6)
+
+![jan forecat to originals](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/80ad3d26-17d8-4588-8d0e-5a49d0812297)
 
 ### Model Evaluation
 

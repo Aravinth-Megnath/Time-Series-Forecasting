@@ -111,9 +111,13 @@ The FBProphet model's performance is evaluated using cross-validation and releva
 We utilize the trained FBProphet model to predict future sales for a specific period.
 
 ## Conclusion
+In this project, we explored predictive sales forecasting for a mobile shop using FBProphet and XGBoost models. The objective was to improve business decision-making and gain insights into future sales trends.
 
-Based on the evaluation results, we conclude that the XGBoost model outperforms FBProphet in terms of forecasting accuracy. The XGBoost model's significantly lower MAPE showcases its potential for optimizing inventory management, aiding business decision-making, and gaining valuable insights into future sales trends in the dynamic mobile market landscape.
+Both models showed promise, but XGBoost outperformed FBProphet with a significantly lower MAPE of 0.11% compared to 0.12%. This makes XGBoost the more suitable choice for accurate sales predictions.
 
+By leveraging advanced machine learning techniques, we equipped the mobile shop with a powerful forecasting tool. This enables optimized inventory management and data-driven decisions, leading to enhanced business performance and adaptability in the dynamic mobile market landscape.
+
+Continued monitoring and refinement of the models will ensure the forecasting system's long-term relevance and effectiveness. Overall, data-driven decision-making plays a crucial role in the mobile shop's success, enabling a more efficient and agile business operation.
 For more detailed insights and code implementation, please refer to the Jupyter Notebooks provided in this repository.
 
 

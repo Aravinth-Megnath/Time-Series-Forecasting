@@ -19,26 +19,23 @@ In this section, we perform exploratory data analysis on the historical sales da
 Data Distribution
 ![1](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/9cbd80a0-35d8-4228-9075-1b235298551b)
 
-### Time Series Split
+### Time Series Cross-Validation: Train-Test Splits Visualization
 
 The dataset is split into training and test sets using time series split to ensure that the model is evaluated on future time periods.
-
-
-### Time Series Cross-Validation: Train-Test Splits Visualization
 
 We visualize the train-test splits in the time series cross-validation to understand how the data is split for model evaluation.
 
 ![2](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/772d7fd4-8a24-4249-a9cd-2c03022b0976)
 
-### Data Preprocessing
-
-The raw data is preprocessed to handle missing values, if any, and formatted to have a date-time index. Feature engineering is also performed to create additional time-related features essential for time series forecasting.
+### Revenue by Day of Week: Box Plot
 
 ![revenue by day of week](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/ee7250dd-2b3c-4abf-9fa4-adb6c11e2371)
 
 ### Cross Validation
 
 We apply cross-validation to evaluate the XGBoost model's performance and compute relevant evaluation metrics.
+
+![cross validation](https://github.com/Aravinth-Megnath/Time-Series-Forecasting/assets/120720408/076d8aaf-1d4c-4d6c-85b0-48ae64d817ba)
 
 ### Hyperparameter Tuning
 
